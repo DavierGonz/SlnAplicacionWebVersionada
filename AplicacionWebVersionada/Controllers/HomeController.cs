@@ -12,7 +12,10 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    /// <summary>
+    /// Esta es una prueba de la version 1.0.0
+    /// </summary>
+    /// <returns> comentario </returns>
     public IActionResult Index()
     {
         return View();
